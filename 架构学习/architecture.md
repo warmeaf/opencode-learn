@@ -15,16 +15,22 @@ opencode/
 │   ├── desktop/          # 桌面应用（Tauri）
 │   ├── ui/               # 共享 UI 组件库
 │   ├── sdk/              # JavaScript/TypeScript SDK
+│   │   └── js/           # SDK 实现
 │   ├── plugin/           # 插件系统
 │   ├── util/             # 工具函数库
+│   ├── script/           # 脚本工具
 │   ├── console/          # 管理控制台
 │   │   ├── app/          # 控制台前端
 │   │   ├── core/         # 核心业务逻辑
+│   │   ├── function/     # 云函数
 │   │   ├── mail/         # 邮件服务
 │   │   └── resource/     # 资源管理
 │   ├── function/         # 云函数
 │   ├── enterprise/       # 企业版
-│   └── slack/            # Slack 集成
+│   ├── slack/            # Slack 集成
+│   ├── docs/             # 文档资源
+│   ├── extensions/       # 扩展（如 Zed）
+│   └── identity/         # 身份认证
 ├── infra/                # 基础设施代码（SST）
 └── specs/                # 规范文档
 ```
@@ -51,7 +57,7 @@ opencode/
 
 #### 2. 前端应用
 - **Web 应用** (`packages/app/`): SolidJS + Vite
-- **桌面应用** (`packages/desktop/`): Tauri 2.0
+- **桌面应用** (`packages/desktop/`): Tauri 2.x
 - **UI 组件库** (`packages/ui/`): 共享的 SolidJS 组件
 - **Web 文档** (`packages/web/`): Astro + Starlight
 
@@ -83,13 +89,13 @@ opencode/
 ### 前端框架
 - **SolidJS 1.9.10**: 主要前端框架
 - **Astro 5.7.13**: 文档站点生成器
-- **Starlight**: Astro 文档主题
+- **Starlight 0.34.3**: Astro 文档主题
 - **TailwindCSS 4.1.11**: 样式框架
 - **Kobalte**: SolidJS UI 组件库
 - **Vite 7.1.4**: 构建工具
 
 ### 桌面应用
-- **Tauri 2.0**: 跨平台桌面应用框架
+- **Tauri 2.x**: 跨平台桌面应用框架
 - **Ghostty Web**: 终端模拟器
 
 ### 后端与部署
