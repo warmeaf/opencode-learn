@@ -2,7 +2,7 @@
 
 ## 参考资料和来源
 
-- pdf文件[./颠覆传统的学习与求职方法.pdf]
+- [PDF文件：颠覆传统的学习与求职方法](./颠覆传统的学习与求职方法.pdf)
 
 - 访谈：https://www.bilibili.com/video/BV1EH2kBwEud/?share_source=copy_web&vd_source=18b95e4b18499817fff82393d470dbd3
 
